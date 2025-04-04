@@ -35,7 +35,7 @@ const Contact = () => {
                 <p className="text-gray-600 dark:text-gray-300">
                 Flat No. 6, Third Floor
 Camille Apartments
-Tucked behind Clover Classic, in the charming Lane B
+behind Clover Classic, in the charming Lane B
 Koregaon Park<br />
 Pune, Maharashtra – 411001
                 </p>
