@@ -3,24 +3,19 @@ import React from 'react';
 const Team = () => {
   const team = [
     {
-      name: "Sarah Johnson",
-      role: "CEO & Founder",
+      name: "Siddharth",
+      role: "Frontend Engineer",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     },
     {
-      name: "Michael Chen",
-      role: "CTO",
+      name: "Simar Ahluwalia",
+      role: "Backend Engineer",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     },
     {
-      name: "Emily Rodriguez",
-      role: "AI Research Lead",
+      name: "Yashika Surana",
+      role: "Social Media Strategist",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      name: "David Kim",
-      role: "Product Manager",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     }
   ];
 
