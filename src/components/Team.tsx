@@ -16,6 +16,11 @@ const Team = () => {
       name: "Yashika Surana",
       role: "Social Media Strategist",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      name: "Anmol",
+      role: "Social Media Manager",
+      image: "https://images.unsplash.com/photo-1502767089025-6572583495f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     }
   ];
 
