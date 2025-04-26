@@ -29,9 +29,11 @@ const Contact = () => {
             </div>
             
             <div className="flex items-start space-x-4">
-              <svg className="w-6 h-6 text-blue-600 mt-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M24 4.56v14.91c0 2.52-2.04 4.56-4.56 4.56H4.56C2.04 24 0 21.96 0 19.44V4.56C0 2.04 2.04 0 4.56 0h14.91C21.96 0 24 2.04 24 4.56zM9.75 19.44h4.5v-6.75h3l.75-3h-3.75V8.25c0-.75.75-1.5 1.5-1.5h2.25V3.75h-3c-2.25 0-3.75 1.5-3.75 3.75v2.25H9.75v3h3v6.75z" />
-              </svg>
+            <img
+                  src="/facebook.png"
+                  alt="facebook Logo"
+                  className="w-6 h-6 mt-1"
+                  />
               <div>
                 <h3 className="font-bold mb-2">Facebook</h3>
                 <a href="https://x.com/Sayhi_Ai_?t=pLgCxV_lORPxP-aNsnTZXQ&s=08" className="text-blue-600 dark:text-blue-400">SayHiAi (@Sayhi_Ai_)</a>
@@ -39,9 +41,12 @@ const Contact = () => {
             </div>
             
             <div className="flex items-start space-x-4">
-              <svg className="w-6 h-6 text-blue-600 mt-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2.04c-5.52 0-10 4.48-10 10 0 4.42 3.58 8.1 8 8.9v-6.3h-2.4v-2.6h2.4v-2c0-2.4 1.44-3.7 3.6-3.7 1.04 0 2.12.18 2.12.18v2.34h-1.2c-1.18 0-1.54.74-1.54 1.5v1.68h2.6l-.42 2.6h-2.18v6.3c4.42-.8 8-4.48 8-8.9 0-5.52-4.48-10-10-10z" />
-              </svg>
+              <img
+                  src="/insta.png"
+                  alt="Instagram Logo"
+                  className="w-6 h-6 mt-1"
+                  />
+
               <div>
                 <h3 className="font-bold mb-2">Instagram</h3>
                 <a href="https://www.instagram.com/sayhiai_official?igsh=MWI1ZXp1bjVncjRnYw==" className="text-blue-600 dark:text-blue-400">@sayhiai_official</a>
