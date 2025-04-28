@@ -16,6 +16,11 @@ const Team = () => {
       name: "Anmol",
       role: "Social Media Manager",
       image: "/anmol.jpeg"
+    },
+    {
+      name: "Riya Singh",
+      role: "Flutter Engineer",
+      image: "/riya.png" // Make sure you have this image in your `public` folder
     }
   ];
 
@@ -27,14 +32,14 @@ const Team = () => {
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {team.map((member, index) => (
             <div key={index} className="group">
               <div className="relative overflow-hidden rounded-xl shadow-lg">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-64 object-cover transform group-hover:scale-125 transition-transform duration-700 ease-in-out"
+                  className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                   <h3 className="text-xl font-bold text-white">{member.name}</h3>
